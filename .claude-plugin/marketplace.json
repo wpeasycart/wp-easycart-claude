@@ -1,0 +1,19 @@
+{
+  "name": "wp-easycart",
+  "owner": {
+    "name": "WP EasyCart",
+    "url": "https://www.wpeasycart.com"
+  },
+  "metadata": {
+    "description": "Set up and run a WP EasyCart store from Claude."
+  },
+  "plugins": [
+    {
+      "name": "wp-easycart",
+      "source": "./plugins/wp-easycart",
+      "description": "Connects Claude to your WP EasyCart store's MCP server, with skills to set up the store, restyle it, ship orders, handle returns and check marketing each week.",
+      "category": "ecommerce",
+      "keywords": ["wordpress", "ecommerce", "store", "wp-easycart", "mcp"]
+    }
+  ]
+}

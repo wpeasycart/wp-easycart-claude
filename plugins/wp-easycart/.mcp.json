@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "wp-easycart": {
+      "type": "http",
+      "url": "${WP_EASYCART_URL}/wp-json/wp-easycart/mcp"
+    }
+  }
+}

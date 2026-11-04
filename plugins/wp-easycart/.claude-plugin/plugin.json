@@ -1,0 +1,12 @@
+{
+  "name": "wp-easycart",
+  "version": "0.2.0",
+  "description": "Set up and run your WP EasyCart store from Claude: setup, products, shipping, tax, the storefront's design, orders, returns and marketing, through the store's own MCP server.",
+  "author": {
+    "name": "WP EasyCart",
+    "url": "https://www.wpeasycart.com"
+  },
+  "homepage": "https://docs.wpeasycart.com/",
+  "license": "GPL-2.0-or-later",
+  "keywords": ["wordpress", "ecommerce", "store", "wp-easycart", "mcp"]
+}
