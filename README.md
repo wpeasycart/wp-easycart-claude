@@ -11,8 +11,8 @@ and the store decides what Claude may do.
 - WP EasyCart 6.0.7 or newer, on WordPress 6.9 or newer. Restyling the store ( the `design-store` skill ) needs WP EasyCart 6.1.
 - The MCP Adapter plugin. WP EasyCart › Settings › AI assistants installs it in one click.
 - "Let AI assistants read the store" on ( the default ). For setup and day-to-day changes, also "Let AI assistants make changes".
-- For claude.ai, the Claude apps and sign-in without a password: HTTPS, pretty permalinks and "Let apps such as claude.ai sign in"
-  ( on by default ).
+- For claude.ai, the Claude apps and sign-in without a password: HTTPS, pretty permalinks and "Let AI apps such as Claude, ChatGPT
+  and Gemini sign in" ( on by default ).
 
 ## Install in Claude Code
 
@@ -47,9 +47,10 @@ application password and shows a `claude mcp add` command with it.
 
 ## Use it in claude.ai and the Claude apps
 
-You don't need this plugin there. In Settings › Connectors › Add custom connector, name it WP EasyCart and paste your store's MCP
-server address from WP EasyCart › Settings › AI assistants ( `https://your-store.com/wp-json/wp-easycart/mcp` ). Claude opens your
-store: sign in to WordPress and press Allow. You can disconnect it any time in the same settings.
+You don't need this plugin there. Open Customize › Connectors, press + Add and choose Add custom connector, name it WP EasyCart
+and paste your store's MCP server address from WP EasyCart › Settings › AI assistants ( `https://your-store.com/wp-json/wp-easycart/mcp` ).
+Claude opens your store: sign in to WordPress and press Allow. You can disconnect it any time in the same settings. ChatGPT and
+Gemini connect to the same address; WP EasyCart › Settings › AI assistants has the steps for each.
 
 ## Skills
 
